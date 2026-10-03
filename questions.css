@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Cairo', sans-serif;
+    background: #f7fbff;
+    color: #123b5d;
+    min-height: 100vh;
+}
+
+
+/* ================= HEADER ================= */
+
+.quiz-header {
+    background: #123b5d;
+    color: white;
+    padding: 18px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+
+.subtitle {
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+
+/* ================= CONTAINER ================= */
+
+.quiz-container {
+    width: 90%;
+    max-width: 850px;
+    margin: 50px auto;
+}
+
+
+/* ================= SECTOR HEADER ================= */
+
+.sector-header {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+
+.sector-icon {
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+
+.sector-header h1 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+
+.sector-header p {
+    color: #607d8b;
+    font-size: 16px;
+}
+
+
+/* ================= QUESTION INFO ================= */
+
+.question-info {
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+
+#questionNumber {
+    display: block;
+    margin-bottom: 8px;
+}
+
+
+.progress-container {
+    width: 100%;
+    height: 9px;
+    background: #dcecf5;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+.progress-bar {
+    width: 25%;
+    height: 100%;
+    background: #4fa3d1;
+    border-radius: 20px;
+    transition: width 0.4s ease;
+}
+
+
+/* ================= QUESTION CARD ================= */
+
+.question-card {
+    background: white;
+    border-radius: 25px;
+    padding: 35px;
+    box-shadow: 0 15px 45px rgba(18, 59, 93, 0.12);
+}
+
+
+.question-card h2 {
+    font-size: 21px;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+
+/* ================= ANSWERS ================= */
+
+.answers-container {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+
+.answer {
+    background: #f4f9fc;
+    border: 2px solid #dcecf5;
+    padding: 16px 18px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+    font-size: 16px;
+}
+
+
+.answer:hover {
+    border-color: #4fa3d1;
+    background: #eef8fd;
+}
+
+
+.answer.selected {
+    border-color: #4fa3d1;
+    background: #e3f4fc;
+}
+
+
+/* الصح والغلط */
+
+.answer.correct {
+    background: #e8f5e9;
+    border-color: #43a047;
+    color: #2e7d32;
+}
+
+
+.answer.wrong {
+    background: #ffebee;
+    border-color: #e53935;
+    color: #c62828;
+}
+
+
+/* ================= FEEDBACK ================= */
+
+.feedback {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 14px;
+    display: none;
+    line-height: 1.8;
+}
+
+
+.feedback.correct-feedback {
+    display: block;
+    background: #e8f5e9;
+    color: #2e7d32;
+}
+
+
+.feedback.wrong-feedback {
+    display: block;
+    background: #ffebee;
+    color: #c62828;
+}
+
+
+/* ================= BUTTON ================= */
+
+.next-btn {
+    width: 100%;
+    margin-top: 25px;
+    border: none;
+    background: #123b5d;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    font-family: 'Cairo', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+
+.next-btn:hover {
+    background: #1b527c;
+}
+
+
+.next-btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+
+/* ================= RESULT ================= */
+
+.result-card {
+    display: none;
+    background: white;
+    text-align: center;
+    padding: 45px 30px;
+    border-radius: 25px;
+    box-shadow: 0 15px 45px rgba(18, 59, 93, 0.12);
+}
+
+
+.result-icon {
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
+
+.result-card h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+
+.final-score {
+    font-size: 55px;
+    font-weight: 800;
+    color: #4fa3d1;
+    margin: 15px 0;
+}
+
+
+.final-message {
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+
+
+.back-btn {
+    border: none;
+    background: #4fa3d1;
+    color: white;
+    padding: 14px 30px;
+    border-radius: 15px;
+    font-family: 'Cairo', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+/* ================= FOOTER ================= */
+
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #78909c;
+    font-size: 14px;
+}
+
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 600px) {
+
+    .quiz-header {
+        padding: 15px 5%;
+    }
+
+    .logo {
+        font-size: 23px;
+    }
+
+    .subtitle {
+        font-size: 12px;
+    }
+
+    .quiz-container {
+        margin: 30px auto;
+    }
+
+    .sector-header h1 {
+        font-size: 26px;
+    }
+
+    .question-card {
+        padding: 23px 18px;
+    }
+
+    .question-card h2 {
+        font-size: 18px;
+    }
+
+    .answer {
+        font-size: 15px;
+    }
+
+}
+/* =========================
+   QR CODE
+========================= */
+
+.qr-section {
+    margin-top: 35px;
+    padding: 30px 20px;
+    background: #f5fbff;
+    border: 1px solid rgba(79, 163, 209, 0.2);
+    border-radius: 24px;
+    text-align: center;
+}
+
+.qr-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.qr-title h3 {
+    margin: 0;
+    color: #123B5D;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.qr-title span {
+    color: #4FA3D1;
+    font-size: 20px;
+}
+
+.qr-section p {
+    color: #667d8d;
+    margin: 12px 0 20px;
+}
+
+.qr-section img {
+    width: 190px;
+    height: 190px;
+    object-fit: contain;
+    display: block;
+    margin: 15px auto;
+    padding: 10px;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(18, 59, 93, 0.12);
+}
+
+.qr-hint {
+    color: #4FA3D1;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 10px;
+}

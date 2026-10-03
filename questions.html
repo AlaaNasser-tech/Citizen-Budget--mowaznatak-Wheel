@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>اختبر معلوماتك | موازنتك</title>
+
+    <link rel="stylesheet" href="questions.css">
+</head>
+
+<body>
+
+    <header class="quiz-header">
+        <div class="logo">موازنتك</div>
+        <div class="subtitle">افهم موازنة بلدك</div>
+    </header>
+
+
+    <main class="quiz-container">
+
+        <!-- عنوان القطاع -->
+        <div class="sector-header">
+            <div id="sectorIcon" class="sector-icon">📚</div>
+
+            <h1 id="sectorTitle">قطاع التعليم</h1>
+
+            <p id="sectorDescription">
+                اختبر معلوماتك عن القطاع
+            </p>
+        </div>
+
+
+        <!-- معلومات السؤال -->
+        <div class="question-info">
+            <span id="questionNumber">السؤال 1 من 4</span>
+
+            <div class="progress-container">
+                <div id="progressBar" class="progress-bar"></div>
+            </div>
+        </div>
+
+
+        <!-- كارت السؤال -->
+        <section class="question-card">
+
+            <h2 id="questionText">
+                السؤال هنا
+            </h2>
+
+            <div id="answersContainer" class="answers-container">
+                <!-- الاختيارات هتظهر هنا من JavaScript -->
+            </div>
+
+
+            <!-- نتيجة الإجابة -->
+            <div id="feedback" class="feedback"></div>
+
+
+            <button id="nextBtn" class="next-btn">
+                تأكيد الإجابة
+            </button>
+
+        </section>
+
+
+        <!-- النتيجة النهائية -->
+        <section id="resultCard" class="result-card">
+
+            <div class="result-icon">🏆</div>
+
+            <h2>خلصت الاختبار! 🎉</h2>
+
+            <p>درجتك النهائية:</p>
+
+            <div id="finalScore" class="final-score">
+                0 / 4
+            </div>
+
+
+            <p id="finalMessage" class="final-message"></p>
+
+
+            <!-- QR CODE -->
+            <div class="qr-section">
+
+                <div class="qr-title">
+
+                    <span>✦</span>
+
+                    <h3>
+                        عايز تعرف أكتر عن القطاع؟
+                    </h3>
+
+                    <span>✦</span>
+
+                </div>
+
+                <p class="qr-description">
+                    امسح الـ QR Code وشاهد الفيديو 🎬
+                </p>
+
+                <img
+                    id="sectorQR"
+                    src="التعليم.png"
+                    alt="QR Code الخاص بالقطاع"
+                >
+
+                <div class="qr-hint">
+                    📱 وجّه كاميرا الموبايل للكود
+                </div>
+
+            </div>
+
+
+            <button id="backBtn" class="back-btn">
+                🔄 تجربة قطاع آخر
+            </button>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>© 2026 موازنتك | افهم موازنة بلدك 🇪🇬</p>
+    </footer>
+
+
+    <script src="questions.js"></script>
+
+</body>
+</html>

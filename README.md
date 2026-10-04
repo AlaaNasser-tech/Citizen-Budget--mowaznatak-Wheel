@@ -19,12 +19,15 @@ https://generalbudgets.vercel.app/
 
 # 📸 Platform Screenshots
 
-### 🎡 Interactive Wheel & Quiz Interface
-
-<img width="526" height="1280" alt="image" src="https://github.com/user-attachments/assets/2fca41be-5197-4feb-8987-4021d0c1bf50" />
-
 > 📌 Homepage Interface: Designed for an intuitive onboarding survey that introduces users to Egyptian budget literacy before starting the interactive wheel.
 <img width="1280" height="538" alt="image" src="https://github.com/user-attachments/assets/44564f9c-79c9-4782-a54e-6c7819bad3bf" />
+
+
+### 🎡 Interactive Wheel & Quiz Interface
+
+<img width="1467" height="892" alt="image" src="https://github.com/user-attachments/assets/1a077be2-3c18-4473-9ea5-db5b45198be6" />
+<img width="1373" height="916" alt="image" src="https://github.com/user-attachments/assets/ffc444f9-658d-4f05-ab3f-395d11aabcf9" />
+<img width="971" height="430" alt="image" src="https://github.com/user-attachments/assets/bb813740-b1d8-4dd2-869f-4ff29a58073d" />
 
 ---
 # 📌 Project Overview & Journey

@@ -27,10 +27,6 @@ https://generalbudgets.vercel.app/
 
 <img width="1467" height="892" alt="image" src="https://github.com/user-attachments/assets/1a077be2-3c18-4473-9ea5-db5b45198be6" />
 
-<img width="1373" height="916" alt="image" src="https://github.com/user-attachments/assets/ffc444f9-658d-4f05-ab3f-395d11aabcf9" />
-
-<img width="1373" height="850" alt="image" src="https://github.com/user-attachments/assets/bb813740-b1d8-4dd2-869f-4ff29a58073d" />
-
 ---
 # 📌 Project Overview & Journey
 
@@ -50,8 +46,9 @@ Understanding fiscal policies can be complex. "موازنتك" transforms nation
 * 🎡 Custom Wheel Logic: Smooth JavaScript algorithm for budget sector selection.
 * 🧠 Dynamic Quiz Engine: Sector-tailored questions with automated scoring.
 * 💡 Instant Answer Explanations: Green/red visual indicators with educational notes.
-* 📲 QR Code Support: Quick access to official Ministry of Finance resources.
 * 📱 Responsive Design: Fully optimized Arabic-first UI for mobile and desktop.
+*  📲 QR Code Support: Quick access to official Ministry of Finance resources. 
+<img width="1373" height="850" alt="image" src="https://github.com/user-attachments/assets/bb813740-b1d8-4dd2-869f-4ff29a58073d" />
 
 ---
 

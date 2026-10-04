@@ -26,8 +26,10 @@ https://generalbudgets.vercel.app/
 ### 🎡 Interactive Wheel & Quiz Interface
 
 <img width="1467" height="892" alt="image" src="https://github.com/user-attachments/assets/1a077be2-3c18-4473-9ea5-db5b45198be6" />
+
 <img width="1373" height="916" alt="image" src="https://github.com/user-attachments/assets/ffc444f9-658d-4f05-ab3f-395d11aabcf9" />
-<img width="971" height="430" alt="image" src="https://github.com/user-attachments/assets/bb813740-b1d8-4dd2-869f-4ff29a58073d" />
+
+<img width="1373" height="850" alt="image" src="https://github.com/user-attachments/assets/bb813740-b1d8-4dd2-869f-4ff29a58073d" />
 
 ---
 # 📌 Project Overview & Journey
